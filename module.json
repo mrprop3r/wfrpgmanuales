@@ -1,0 +1,37 @@
+{
+    "name": "wfrp4e-manuales",
+    "title": "WFRP4E - Manuales",
+    "description": "Modulo para traducción de WFRPG4 y Campaña Enemigo Interior",
+    "version": "5.0.2",
+    "minimumCoreVersion" : "0.6.0",
+    "compatibleCoreVersion": "9",
+    "author": "mrprop3r",
+    "dependencies": [
+    ],  
+    "esmodules": [
+      ],
+    "scripts": [ ],
+    "styles": [],
+    "packs": [ 
+      {
+        "name": "manuales-wfrpg",
+        "label": "Journals",
+        "path": "./packs/manuales-wfrpg.db",
+        "type": "JournalEntry",
+        "system": "wfrp4e",
+        "module": "wfrp4e-manuales"
+      },
+      {
+        "name": "el-enemigo-en-las-sombras",
+        "label": "Campaing",
+        "path": "./packs/el-enemigo-en-las-sombras.db",
+        "type": "JournalEntry",
+        "system": "wfrp4e",
+        "module": "wfrp4e-manuales"
+      }
+      ],
+    "languages": [],  
+    "url": "",
+    "manifest": "",   
+    "download": "" 
+  }
